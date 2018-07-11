@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* Banner Section CSS End Hear */
+  .home-banner img{
+    width: 100%;
+    height: auto;
+  }
+  .bannet-text{
+    width: 80%;    
+    margin-top: -230px;
+    margin-left: 60px;
+    text-transform: uppercase;
+  }
+  .benner-text-decrate{
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffa303;
+    text-align: center;
+  }
+  .benner-text-part1{
+    color:#ffffff;
+    border: solid .5px;
+    border-color: gray;
+    background-color: black;
+    opacity: .5;
+    padding: 5px;
+  }
+  .bannet-text a{
+    background-color: red;
+    color: #ffffff;
+    padding:5px;
+    font-weight: medium;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  /* Banner Section CSS End Hear */
+/* Waiting Section CSS Start Hear */
+  .waiting{
+    background-color: #ffa303;
+    clip-path: polygon(0 0, 100% 0, 100% 57%, 0% 100%);
+    margin-top: 60px;
+    width: 100%;
+    height: 250px;
+  }
+  .img-waiting{
+    float: left;
+    width: 100%;
+    padding: 0px;
+  }
+  .img-waiting img{
+    padding: 40px 0 0 40px;
+    width: 100%;
+    margin: auto;
+  }
+  .video-description{
+    float: left;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .video-heading{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+  }
+  .video-text{
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  /* Waiting Section CSS End Hear */
+/* What WE Do Section CSS Start Hear */
+  .we-do-main-div{
+    height: 650px;
+  }
+  .we-do-icon{
+    height: 80px;
+    width: 100px;
+  }
+  .we-do-heading{
+    text-align: center;
+  }
+  .we-do-div{
+    float: left;
+    padding: 5px;
+    height: 280px;
+    text-align: center;
+  }
+  .we-do-subheading{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    height: 60px;
+  }
+  .we-do-subdescription{
+    font-size: 12px;
+    padding: 15px;
+  }
+/* What We Do Section CSS End Hear */
+/* Action Section CSS Start Hear */
+  .action-image-div, .action-discription-main-div{
+    float: left;
+  }
+  .action-image-div img, .action-discription-main-div{
+    height: 500px;
+  }
+  .action-div{
+    padding: 0px;
+    height: 500px;
+    background-color: #ffa303;
+  }
+  .action-image-div{
+    padding: 0px;
+  }
+  /*.action-discription-main-div:after{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-top: 30px solid #f30a0a;
+    border-right: 30px solid #f30a0a;
+    border-bottom: 30px solid #ffa303;
+    border-left: 30px solid #ffa303;
+    top:50%;
+    left: 0%;
+    margin-left: -30px;
+    content: '';
+    transform: rotate(45deg);
+    margin-top: -25px;
+  }*/
+  .action-image{
+    width: 100%;
+  }
+  .action-image-div{
+    clip-path: polygon(0% 0%, 95% 0, 95% 45%, 100% 50%, 95% 55%, 95% 100%, 0 100%);
+  }
+  .action-discription-main-div{
+    float: left;
+    padding: 55px;
+    width: 100%;
+    background-color: #ffa303;
+  }
+  .action-discription-main-div h1{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .action-discription-main-div a{
+    background-color: #ff0000;
+    padding: 7px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+/* Action Section CSS End Hear */
+/* Who We Are Section CSS Start Hear */
+  .who-we-are-heading{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .person, .person1, .person2, .person1-image, .person2-image {
+    padding: 0px;
+}
+  .person{
+    height: 1100px;
+  }
+  .person p{
+    font-size: 13px;
+  }
+  .person h4, .person a{
+    font-size: 18px;
+  }
+  .person1, .person2{
+      width: 70%;
+      margin: auto;
+  }
+ .person2{
+   margin-top: -100px;
+  }
+  .who-we-are-details{
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    top: -200px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 5px;
+  }
+  .who-we-are-name {
+    float: left;
+  }
+  .who-we-are-details a{
+    color: black;
+    padding-left: 25px;
+    float: right;
+  }
+  /* Who We Are Section CSS End Hear */
+/* Carousel Section CSS Start Hear */
+  .carousel-inner{
+    background-color: #eeeeee;
+    padding: 10px;
+  }
+  .corousel-img{
+    float: left;
+  }
+  .corousel-heading{
+    text-align: center;
+  }
+  /* Who We Are Section CSS End Hear */
+/* Footer Section CSS Start Hear */
+  .footer-div{
+    margin-top: 30px;
+    text-align: center;
+    height: 60px;
+    color: #ffffff;
+    background-color: #000000;  
+  }
+  .footer-text{
+    padding: 10px;
+    float: left;
+  }
+  .footer-div a{
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* Footer Section CSS End Hear */
+}
+
+/* Small devices (portrait tablets and large phones, 567 to 767.98) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Banner Section CSS Start Hear */
+  .home-banner img{
+    width: 100%;
+    height: auto;
+  }
+  .bannet-text{
+    width: 80%;    
+    margin-top: -150px;
+    margin-left: 100px;
+    text-transform: uppercase;
+  }
+  .benner-text-decrate{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffa303;
+    text-align: center;
+  }
+  .benner-text-part1{
+    color:#ffffff;
+    border: solid .3px;
+    border-color: gray;
+    background-color: black;
+    opacity: .5;
+    padding: 3px;
+  }
+  .bannet-text a{
+    background-color: red;
+    color: #ffffff;
+    padding:3px;
+    font-weight: medium;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  /* Banner Section CSS End Hear */
+/* Waiting Section CSS Start Hear */
+  .waiting{
+    margin-top: 25px;
+    padding: 0px;
+  }
+  .img-waiting{
+    width: 100%;
+    z-index: 1;
+    padding: 50px 100px;
+    background-color: #ffa303;
+  }
+  .video-image{
+    width: 400px;
+    height: 250px; 
+  }
+  .video-description{
+    text-align: left;
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: #ffa303;
+  }
+  .video-heading{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;    
+  }
+  .video-text{
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  /* Waiting Section CSS End Hear */
+/* What WE Do Section CSS Start Hear */
+  .we-do-icon{
+    height: 80px;
+    width: 100px;
+  }
+  .we-do-heading{
+    text-align: center;
+  }
+  .we-do-div{
+    float: left;
+    padding: 25px;
+    text-align: center;
+  }
+  .we-do-subheading{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+  }
+  .we-do-subdescription{
+    font-size: 12px;
+    padding: 15px;
+  }
+  /* What We Do Section CSS End Hear */
+/* Action Section CSS Start Hear */
+  .action-div{
+    padding: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .action-image-div{
+    padding: 0px;
+  }
+  .action-discription-main-div:after{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-top: 30px solid #ffa303;
+    border-bottom: 30px solid #f30a0a;
+    border-right: 30px solid #f30a0a;
+    border-left: 30px solid #ffa303;
+    top:-5px;
+    left: 50%;
+    content: '';
+    transform: rotate(45deg);
+    margin-top: -25px;
+  }
+  .action-image{
+    width: 100%;
+  }
+  .action-discription-main-div{
+    padding: 55px;
+    width: 100%;
+    background-color: #ffa303;
+  }
+  .action-discription-main-div h1{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .action-discription-main-div a{
+    background-color: #ff0000;
+    padding: 7px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+/* Action Section CSS End Hear */
+/* Who We Are Section CSS Start Hear */
+  .who-we-are-heading{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .person, .person1, .person2, .person1-image, .person2-image {
+      padding: 0px;
+  }
+  .person p{
+    font-size: 13px;
+  }
+  .person1, .person2{
+    width: 80%;
+    margin: auto;
+  }
+  .person h4, .person a{
+    font-size: 18px;
+  }
+  .person1-image{
+    margin: auto;
+  }
+  .person2{
+      margin-top: -100px;
+  }
+  .who-we-are-details{
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    top: -200px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 5px;
+  }
+  .who-we-are-name {
+    float: left;
+  }
+  .who-we-are-details a{
+    color: black;
+    padding-left: 25px;
+    float: right;
+  }
+/* Who We Are Section CSS End Hear */
+/* Carousel Section CSS Start Hear */
+  .carousel-inner{
+    background-color: #eeeeee;
+    padding: 10px;
+  }
+  .carousel-inner h3{
+      font-size: 16px;
+  }
+  .carousel-inner p{
+    font-size: 12px;
+}
+  .corousel-img{
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  .corousel-heading{
+    text-align: center;
+    margin-top: -100px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* Who We Are Section CSS End Hear */
+/* Footer Section CSS Start Hear */
+  .footer-div{
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #000000;
+  }
+  .footer-text{
+    padding: 10px;
+    float: left;
+  }
+  .footer-div a{
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* Footer Section CSS End Hear */
+}
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px){
+/* NavBar Section CSS Start Hear */
+  .menu .logo img{
+    height: 40px;
+    width: 60px;
+    position: fixed;
+    left: 10px;
+    top: 5px;
+  }
+  .menu{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .toggle{
+    right: 10px;
+    top: 5px;
+  }
+  .menu-list ul li a{
+  font-size: 20px;
+}
+/* NavBar Section CSS End Hear */
+/* Banner Section CSS Start Hear */
+  .home-banner img{
+    width: 100%;
+    height: 100%;
+  }
+  .bannet-text{
+    width: 100%; 
+    text-align: center;   
+    margin-top: -100px;
+    padding-bottom: 20px;
+    text-transform: uppercase; 
+  }
+  .benner-text-decrate{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffa303;
+    text-align: center;
+  }
+  .benner-text-part1{
+    color:#ffffff;
+    border: solid .3px;
+    border-color: gray;
+    background-color: black;
+    opacity: .5;
+    padding: 2px;
+  }
+  .bannet-text a{
+    background-color: red;
+    color: #ffffff;
+    padding:5px;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+  }
+/* Banner Section CSS End Hear */
+/* Waiting Section CSS Start Hear */
+  .waiting{
+    background-color: #ffa303;
+    text-align: center;
+    padding: 0px;
+    z-index: 1;
+  }
+  .img-waiting{
+    width: 100%;
+    margin: auto;
+  }
+  .video-image{
+    width: 80%;
+    padding: 10px;
+    height: auto;
+    background-color: #ffa303; 
+  }
+  .video-description{
+    width: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+    background-color: #ffa303;
+  }
+  .video-heading{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .video-text{
+    font-size: 13px;
+    font-weight: lighter;
+  }
+/* Waiting Section CSS End Hear */
+/* What WE Do Section CSS Start Hear */
+  .we-do-icon{
+    height: 60px;
+    width: 80px;
+  }
+  .we-do-heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top:20px; 
+  }
+  .we-do-div{
+    height: 220px;
+    padding: 10px;
+    text-align: center;
+  }
+  .we-do-subheading{
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: bold;
+    height: 30px;
+  }
+  .we-do-subdescription{
+    font-size: 12px;
+  }
+/* What We Do Section CSS End Hear */
+/* Action Section CSS Start Hear */
+  .action-image-div, .action-discription-main-div{
+    float: left;
+  }
+  .action-div, .action-image-div {
+    padding: 0px;
+  }
+  .action-div{
+    height: 620px;
+  }
+  .action-discription-main-div:after{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-top: 20px solid #ffa303;
+    border-bottom: 20px solid #f30a0a;
+    border-right: 20px solid #f30a0a;
+    border-left: 20px solid #ffa303;
+    top: 5px;
+    left: 45%;
+    content: '';
+    transform: rotate(45deg);
+    margin-top: -25px;
+  }
+  .action-image{
+    width: 100%;
+  }
+  .action-discription-main-div{
+    padding: 25px;
+    width: 100%;
+    background-color: #ffa303;
+  }
+  .action-discription-main-div h1{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .action-discription-main-div p{
+      font-size: 12px;
+  }
+  .action-discription-main-div a{
+    background-color: #ff0000;
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+/* Action Section CSS End Hear */
+/* Who We Are Section CSS Start Hear */
+  .who-we-are{
+    padding: 0px;
+  }
+  .who-we-are-heading{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20xpx;
+  }
+  .who-we-are-heading h1{
+    padding-top: 20px;
+  }
+  .person p{
+    font-size: 12px;
+  }
+  .person h4, .person a{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .person1-image{
+    margin: auto;
+    margin-top: -15px;
+  }
+  .who-we-are-details{
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    background-color: #c0c0c0;
+    padding: 2px;
+  }
+  .who-we-are-name {
+    float: left;
+  }
+  .who-we-are-details a{
+    color: black;
+    padding-left: 15px;
+    float: right;
+  }
+/* Who We Are Section CSS End Hear */
+/* Carousel Section CSS Start Hear */
+  .carousel-inner{
+    background-color: #eeeeee;
+    padding: 10px;
+  }
+  .carousel-inner h3{
+      font-size: 16px;
+      font-weight: bold;
+  }
+  .carousel-inner p{
+    font-size: 12px;
+}
+  .corousel-img{
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .corousel-heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+/* Who We Are Section CSS End Hear */
+/* Footer Section CSS Start Hear */
+  .footer-div{
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #000000;
+  }
+  .footer-text{
+    padding: 8px;
+    float: left;
+  }
+  .footer-div a{
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+/* Footer Section CSS End Hear */
+}

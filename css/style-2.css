@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+@media only screen and (min-width: 992px) {
+    
+  .navbar{
+    background-color: #002020;
+    opacity: .5;
+  }
+  .logo{
+    width: 35%;
+    text-align: center;
+  }
+  .menu-list{
+    width: 65%;
+    text-align: center;
+    
+  }
+  .menu-list ul li{
+    display: inline;
+    padding-left: 30px;
+  }
+
+  .menu-list ul li a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .home-banner img{
+    width: 100%;
+    height: 650px;
+  }
+  .bannet-text{
+    width: 600px;
+    margin-top: -420px;
+    margin-left: 230px;
+    text-transform: uppercase;
+  }
+  .benner-text-decrate{
+    font-size: 65px;
+    font-weight: bold;
+    color: #ffa303;
+    text-align: center;
+  }
+  .benner-text-part1{
+    color:#ffffff;
+    border: solid .5px;
+    border-color: gray;
+    background-color: black;
+    opacity: .5;
+    padding: 5px;
+  }
+  .benner-text-part2{
+    padding-left: 20%;
+  }
+  .bannet-text a{
+    background-color: red;
+    color: #ffffff;
+    padding:5px;
+    font-weight: medium;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .waiting{
+    background-color: #ffa303;
+    border-bottom-right-radius: 90%;
+    margin-top: 145px;
+    width: 100%;
+    height: 350px;
+  }
+  .img-waiting{
+    float: left;
+    width: 100%;
+  }
+  .video-image{
+    height: 250px;
+    padding: 50px;
+  }
+  .video-description{
+    float: left;
+    text-align: left;
+  }
+  .video-heading{
+    font-weight: bold;
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 60px;
+  }
+  .video-text{
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .we-do-icon{
+    height: 80px;
+    width: 100px;
+  }
+  .we-do-heading{
+    text-align: center;
+  }
+  .we-do-main-div{
+    height: 430px;
+  }
+  .we-do-div{
+    float: left;
+    padding: 25px;
+    text-align: center;
+  }
+  .we-do-subheading{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    height: 60px;
+  }
+  .we-do-subdescription{
+    font-size: 12px;
+    padding-top: 15px;
+  }
+
+  .action-div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 0px;
+  }
+  .action-image-div{
+    padding: 0px;
+  }
+  .action-discription-main-div:after{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-right: 50px solid #f30a0a;
+    top:50%;
+    left: 0%;
+    margin-left: -25px;
+    content: '';
+    transform: rotate(45deg);
+    margin-top: -25px;
+  }
+  .action-image{
+    width: 100%;
+  }
+  .action-discription-main-div{
+    float: left;
+    padding: 55px;
+    width: 100%;
+    background-color: #ffa303;
+  }
+  .action-discription-main-div a{
+    background-color: #ff0000;
+    padding: 7px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .who-we-are-heading{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .who-we-are .person{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+  }
+  .who-we-are-heading{
+    margin-top: 60px;
+  }
+  .person2{
+    float: left; 
+  }
+
+  .who-we-are, .person, .person1{
+    padding: 0;
+  }
+  .who-we-are .person1-image img, .who-we-are .person2-image img{
+    width: 500px;
+    height: 500px;
+  }
+  .who-we-are .person1-image {
+    text-align: center;
+  }
+  .person1 .who-we-are-details{
+    width: 400px;
+    height: 200px;
+    margin-left: 18%;
+    margin-top: -230px;
+    background-color: #ffffff;
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .person2 .who-we-are-details{
+    width: 400px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: -230px;
+    background-color: #ffffff;
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .who-we-are-name {
+    float: left;
+  }
+  .who-we-are-details a{
+    color: black;
+    padding-left: 25px;
+    float: right;
+  }
+  .carousel-style{
+    height: 250px;
+    
+  }
+  .carousel-inner{
+    background-color: #eeeeee;
+    padding: 10px;
+  }
+  .corousel-img{
+    float: left;
+  }
+  .corousel-heading{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .footer-div{
+    margin-top: 50px;
+    text-align: center;
+    height: 80px;
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .footer-text{
+    padding: 20px;
+    float: left;
+  }
+  .footer-div a{
+    padding: 25px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+      
+  .navbar{
+    background-color: #002020;
+    opacity: .5;
+  }
+  .logo{
+    width: 35%;
+    text-align: center;
+  }
+  .menu-list{
+    width: 65%;
+    text-align: center;
+    
+  }
+  .menu-list ul li{
+    display: inline;
+    padding-left: 30px;
+  }
+
+  .menu-list ul li a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .home-banner img{
+    width: 100%;
+    height: 650px;
+  }
+  .bannet-text{
+    width: 600px;
+    margin-top: -420px;
+    margin-left: 230px;
+    text-transform: uppercase;
+  }
+  .benner-text-decrate{
+    font-size: 65px;
+    font-weight: bold;
+    color: #ffa303;
+    text-align: center;
+  }
+  .benner-text-part1{
+    color:#ffffff;
+    border: solid .5px;
+    border-color: gray;
+    background-color: black;
+    opacity: .5;
+    padding: 5px;
+  }
+  .benner-text-part2{
+    padding-left: 20%;
+  }
+  .bannet-text a{
+    background-color: red;
+    color: #ffffff;
+    padding:5px;
+    font-weight: medium;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .waiting{
+    background-color: #ffa303;
+    border-bottom-right-radius: 90%;
+    margin-top: 145px;
+    width: 100%;
+    height: 350px;
+  }
+  .img-waiting{
+    float: left;
+    width: 100%;
+  }
+  .video-image{
+    height: 250px;
+    padding: 50px;
+  }
+  .video-description{
+    float: left;
+    text-align: left;
+  }
+  .video-heading{
+    font-weight: bold;
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 60px;
+  }
+  .video-text{
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .we-do-icon{
+    height: 80px;
+    width: 100px;
+  }
+  .we-do-heading{
+    text-align: center;
+  }
+  .we-do-main-div{
+    height: 430px;
+  }
+  .we-do-div{
+    float: left;
+    padding: 25px;
+    text-align: center;
+  }
+  .we-do-subheading{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    height: 60px;
+  }
+  .we-do-subdescription{
+    font-size: 12px;
+    padding-top: 15px;
+  }
+
+  .action-div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 0px;
+  }
+  .action-image-div{
+    padding: 0px;
+  }
+  .action-discription-main-div:after{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-right: 50px solid #f30a0a;
+    top:50%;
+    left: 0%;
+    margin-left: -25px;
+    content: '';
+    transform: rotate(45deg);
+    margin-top: -25px;
+  }
+  .action-image{
+    width: 100%;
+  }
+  .action-discription-main-div{
+    float: left;
+    padding: 55px;
+    width: 100%;
+    background-color: #ffa303;
+  }
+  .action-discription-main-div a{
+    background-color: #ff0000;
+    padding: 7px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .who-we-are-heading{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .who-we-are .person{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+  }
+  .who-we-are-heading{
+    margin-top: 60px;
+  }
+  .person2{
+    float: left; 
+  }
+
+  .who-we-are, .person, .person1{
+    padding: 0;
+  }
+  .who-we-are .person1-image img, .who-we-are .person2-image img{
+    width: 500px;
+    height: 500px;
+  }
+  .who-we-are .person1-image {
+    text-align: center;
+  }
+  .person1 .who-we-are-details{
+    width: 400px;
+    height: 200px;
+    margin-left: 18%;
+    margin-top: -230px;
+    background-color: #ffffff;
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .person2 .who-we-are-details{
+    width: 400px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: -230px;
+    background-color: #ffffff;
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .who-we-are-name {
+    float: left;
+  }
+  .who-we-are-details a{
+    color: black;
+    padding-left: 25px;
+    float: right;
+  }
+  .carousel-style{
+    height: 250px;
+    
+  }
+  .carousel-inner{
+    background-color: #eeeeee;
+    padding: 10px;
+  }
+  .corousel-img{
+    float: left;
+  }
+  .corousel-heading{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .footer-div{
+    margin-top: 50px;
+    text-align: center;
+    height: 80px;
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .footer-text{
+    padding: 20px;
+    float: left;
+  }
+  .footer-div a{
+    padding: 25px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+} 
